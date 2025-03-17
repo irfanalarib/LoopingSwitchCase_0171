@@ -7,7 +7,7 @@ int main()
 {
     int n;
     int perulanganWhile = 0;
-    int perulananDo = 0;
+    int perulanganDo = 0;
 
     // Perulangan dengan for
 
@@ -57,7 +57,7 @@ int main()
     {
         cout << "Nilai n = " << n << endl;
         n = rand() % 10;
-        perulanganDO++;
+        perulanganDo++;
     } while (n < 7);
     cout << "Jumlah perulangan = " << perulanganWhile << endl;
     cout << "Nilai n terakhir = " << n << endl;
